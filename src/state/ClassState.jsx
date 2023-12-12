@@ -37,12 +37,13 @@ export default class ClassState extends Component {
   // }
 
   render() {
+    const {name, email, job} = this.state //Object Destructing InI LO YA
     return (
       <div>
         <h1>State Class Component</h1>
-        <h2>nama : {this.state.name} </h2>
-        <h2>email : {this.state.email} </h2>
-        <h2>job : {this.state.job} </h2>
+        <h2>nama : {name} </h2>
+        <h2>email : {email} </h2>
+        <h2>job : {job} </h2>
         <button onClick={() => this.changeUser()}>Change User</button>
         <button onClick={() => this.updateJob()}>Change Job</button>
       </div>

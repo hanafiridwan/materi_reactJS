@@ -1,5 +1,10 @@
 // import logo from './logo.svg';
 import './App.css';
+import ClassEventHandling from './FuncEventHandling/ClassEventHandling';
+import FuncEventHandling from './FuncEventHandling/FuncEventHandling';
+import ObjectDestructing from './object destructing/ObjectDestructing';
+import ClassProps from './props/ClassProps';
+import FuncProps from './props/FuncProps';
 import ClassState from './state/ClassState';
 // import ClassProps from './props/ClassProps';
 
@@ -29,10 +34,24 @@ import ClassState from './state/ClassState';
 //   );
 // }
 
+// function App(){
+//   return(
+//     <div className="App">
+//       {/* <ClassState /> */}
+//     {/* <FuncProps name="Udin" email="Udin@gmail.com" /> */}
+//     <ObjectDestructing name="Wahyu" email="Wahyu@gmail.com" job="Student" />
+//     {/* <ClassProps name="Bagus" email="Bagus@gmail.com" /> */}
+//     </div>
+
+//   );
+// }
+
 function App(){
   return(
     <div className="App">
-      <ClassState />
+      <h1>This is Learn Event Handling</h1>
+      {/* <FuncEventHandling /> */}
+      <ClassEventHandling />
     </div>
 
   );
