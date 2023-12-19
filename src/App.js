@@ -1,5 +1,6 @@
 // import logo from './logo.svg';
 import './App.css';
+import Classconditionalrendering from './Conditionalrendering/Classconditionalrendering';
 import ClassEventHandling from './FuncEventHandling/ClassEventHandling';
 import FuncEventHandling from './FuncEventHandling/FuncEventHandling';
 import ObjectDestructing from './object destructing/ObjectDestructing';
@@ -51,7 +52,8 @@ function App(){
     <div className="App">
       <h1>This is Learn Event Handling</h1>
       {/* <FuncEventHandling /> */}
-      <ClassEventHandling />
+      {/* <ClassEventHandling /> */}
+      <Classconditionalrendering />
     </div>
 
   );
