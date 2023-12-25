@@ -3,6 +3,7 @@ import './App.css';
 import Classconditionalrendering from './Conditionalrendering/Classconditionalrendering';
 import ClassEventHandling from './FuncEventHandling/ClassEventHandling';
 import FuncEventHandling from './FuncEventHandling/FuncEventHandling';
+import Renderinglist from './Renderinglist/Renderinglist';
 import ObjectDestructing from './object destructing/ObjectDestructing';
 import ClassProps from './props/ClassProps';
 import FuncProps from './props/FuncProps';
@@ -47,13 +48,24 @@ import ClassState from './state/ClassState';
 //   );
 // }
 
+// function App(){
+//   return(
+//     <div className="App">
+//       <h1>This is Learn Event Handling</h1>
+//       {/* <FuncEventHandling /> */}
+//       {/* <ClassEventHandling /> */}
+//       {/* <Classconditionalrendering /> */}
+//     </div>
+
+//   );
+// }
+
 function App(){
   return(
     <div className="App">
-      <h1>This is Learn Event Handling</h1>
-      {/* <FuncEventHandling /> */}
-      {/* <ClassEventHandling /> */}
-      <Classconditionalrendering />
+      <h1>Belajar List Rendering</h1>
+      <Renderinglist />
+      
     </div>
 
   );
