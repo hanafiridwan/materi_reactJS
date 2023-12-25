@@ -3,6 +3,7 @@ import './App.css';
 import Classconditionalrendering from './Conditionalrendering/Classconditionalrendering';
 import ClassEventHandling from './FuncEventHandling/ClassEventHandling';
 import FuncEventHandling from './FuncEventHandling/FuncEventHandling';
+import Handlingeror from './Handlingeror/Handlingeror';
 import Renderinglist from './Renderinglist/Renderinglist';
 import ObjectDestructing from './object destructing/ObjectDestructing';
 import ClassProps from './props/ClassProps';
@@ -64,8 +65,8 @@ function App(){
   return(
     <div className="App">
       <h1>Belajar List Rendering</h1>
-      <Renderinglist />
-      
+      {/* <Renderinglist /> */}
+      <Handlingeror />
     </div>
 
   );
