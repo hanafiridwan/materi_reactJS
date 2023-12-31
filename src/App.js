@@ -1,5 +1,6 @@
 // import logo from './logo.svg';
 import './App.css';
+import CSSreact from './CSSreact/CSSreact';
 import Classconditionalrendering from './Conditionalrendering/Classconditionalrendering';
 import ClassEventHandling from './FuncEventHandling/ClassEventHandling';
 import FuncEventHandling from './FuncEventHandling/FuncEventHandling';
@@ -66,7 +67,8 @@ function App(){
     <div className="App">
       <h1>Belajar List Rendering</h1>
       {/* <Renderinglist /> */}
-      <Handlingeror />
+      {/* <Handlingeror /> */}
+      <CSSreact />
     </div>
 
   );
