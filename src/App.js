@@ -2,6 +2,7 @@
 import './App.css';
 import CSSreact from './CSSreact/CSSreact';
 import Classconditionalrendering from './Conditionalrendering/Classconditionalrendering';
+import FormHandling from './FormHandling/FormHandling';
 import ClassEventHandling from './FuncEventHandling/ClassEventHandling';
 import FuncEventHandling from './FuncEventHandling/FuncEventHandling';
 import Handlingeror from './Handlingeror/Handlingeror';
@@ -65,10 +66,11 @@ import ClassState from './state/ClassState';
 function App(){
   return(
     <div className="App">
-      <h1>Belajar List Rendering</h1>
+      <h1>Belajar Form Handling</h1>
       {/* <Renderinglist /> */}
       {/* <Handlingeror /> */}
-      <CSSreact />
+      {/* <CSSreact /> */}
+      <FormHandling />
     </div>
 
   );
