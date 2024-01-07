@@ -5,7 +5,9 @@ export default class FormHandling extends Component {
     super()
     this.state = {
       name: "",
-      email: ""
+      email: "",
+      description: "",
+      gender: ""
     };
   }
 
@@ -34,10 +36,26 @@ export default class FormHandling extends Component {
           <label>Name </label>
           <input type="text" id="name" name='name' value={this.state.name} onChange={this.handleChange} />
           </div>
+
           <div>
           <label>Email </label>
-          <input type="email" id="name" name='email' value={this.state.email} onChange={this.handleChange} />
+          <input type="email" id="email" name='email' value={this.state.email} onChange={this.handleChange} />
           </div>
+
+          <div>
+          <label>Description </label>
+          <textarea type="text" id="description" name='description' value={this.state.description} onChange={this.handleChange} />
+          </div>
+
+          <div>
+          <label>Gender </label>
+          <select type="" id="gender" name='gender' value={this.state.gender} onChange={this.handleChange}>
+            <option>Select</option>
+            <option value="man">Man</option>
+            <option value="woman">Woman</option>
+          </select>
+          </div>
+
           <button type="submit">Submit</button>
         </form>
       </div>
