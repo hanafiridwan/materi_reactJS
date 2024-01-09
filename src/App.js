@@ -6,6 +6,7 @@ import FormHandling from './FormHandling/FormHandling';
 import ClassEventHandling from './FuncEventHandling/ClassEventHandling';
 import FuncEventHandling from './FuncEventHandling/FuncEventHandling';
 import Handlingeror from './Handlingeror/Handlingeror';
+import LifeCycledidMount from './LifeCycledidMount/LifeCycledidMount';
 import Renderinglist from './Renderinglist/Renderinglist';
 import ObjectDestructing from './object destructing/ObjectDestructing';
 import ClassProps from './props/ClassProps';
@@ -66,11 +67,12 @@ import ClassState from './state/ClassState';
 function App(){
   return(
     <div className="App">
-      <h1>Belajar Form Handling</h1>
+      <h1>Belajar Life Cycle DidMount</h1>
       {/* <Renderinglist /> */}
       {/* <Handlingeror /> */}
       {/* <CSSreact /> */}
-      <FormHandling />
+      {/* <FormHandling /> */}
+      <LifeCycledidMount />
     </div>
 
   );
