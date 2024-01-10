@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import LifeCycleChild from './LifeCycleChild'
 
 export default class LifeCycledidMount extends Component {
     constructor() {
@@ -18,7 +19,7 @@ export default class LifeCycledidMount extends Component {
     console.log("render")
     return (
       <div>
-        <h1>Ini adalah Life Cycle didMount</h1>
+        <LifeCycleChild />
       </div>
     )
   }
