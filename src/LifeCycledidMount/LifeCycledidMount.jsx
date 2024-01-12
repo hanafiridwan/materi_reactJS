@@ -12,14 +12,26 @@ export default class LifeCycledidMount extends Component {
 
     // ini adalah lifeCycle didMount
     componentDidMount() {
-        console.log("component DidMount")
+        setTimeout(console.log("component DidMount"))
+        // kebalikan dari setTimeout adalah clearTimeout
+    }
+
+    componentDidUpdate(){
+      console.log("component didUpdate")
+    }
+
+    componentWillUnmount(){
+      // componen ini dieksekusi setelah komponen didMount. component ini biasa digunakan untuk clearing
+      clearTimeout(console.log("component Will Unmount"))
     }
 
   render() {
     console.log("render")
     return (
       <div>
-        <LifeCycleChild />
+        {/* <LifeCycleChild /> */}
+        {this.state.name}
+        <button onClick={() => this.setState({name: "Suti OON"})}>Klik</button>
       </div>
     )
   }
