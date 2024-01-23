@@ -8,6 +8,7 @@ import FuncEventHandling from './FuncEventHandling/FuncEventHandling';
 import Handlingeror from './Handlingeror/Handlingeror';
 import LifeCycledidMount from './LifeCycledidMount/LifeCycledidMount';
 import LearnUseState from './ReactHooks/UseState';
+import UseStateAdvance from './ReactHooks/UseStateAdvance';
 import Renderinglist from './Renderinglist/Renderinglist';
 import ObjectDestructing from './object destructing/ObjectDestructing';
 import ClassProps from './props/ClassProps';
@@ -83,7 +84,8 @@ function App(){
   return(
     <div className="App">
       <h1>Use State React Hooks</h1>
-      <LearnUseState />
+      {/* <LearnUseState /> */}
+      <UseStateAdvance />
     </div>
 
   );
