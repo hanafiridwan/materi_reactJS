@@ -8,6 +8,7 @@ import FuncEventHandling from './FuncEventHandling/FuncEventHandling';
 import Handlingeror from './Handlingeror/Handlingeror';
 import LifeCycledidMount from './LifeCycledidMount/LifeCycledidMount';
 import UseEffect from './ReactHooks/UseEffect';
+import UseEffect2 from './ReactHooks/UseEffect2';
 import UseReducer from './ReactHooks/UseReducer';
 import UseReducer2 from './ReactHooks/UseReducer2';
 import LearnUseState from './ReactHooks/UseState';
@@ -91,7 +92,8 @@ function App(){
       {/* <UseStateAdvance /> */}
       {/* <UseReducer /> */}
       {/* <UseReducer2 /> */}
-      <UseEffect />
+      {/* <UseEffect /> */}
+      <UseEffect2 />
     </div>
 
   );
