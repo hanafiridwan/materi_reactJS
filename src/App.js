@@ -12,6 +12,7 @@ import UseEffect2 from './ReactHooks/UseEffect2';
 import UseReducer from './ReactHooks/UseReducer';
 import UseReducer2 from './ReactHooks/UseReducer2';
 import UseRef from './ReactHooks/UseRef';
+import UseRef2 from './ReactHooks/UseRef2';
 import LearnUseState from './ReactHooks/UseState';
 import UseStateAdvance from './ReactHooks/UseStateAdvance';
 import Renderinglist from './Renderinglist/Renderinglist';
@@ -95,7 +96,8 @@ const App = () => {
       {/* <UseReducer2 /> */}
       {/* <UseEffect /> */}
       {/* <UseEffect2 /> */}
-      <UseRef />
+      {/* <UseRef /> */}
+      <UseRef2 />
     </div>
 
   );
