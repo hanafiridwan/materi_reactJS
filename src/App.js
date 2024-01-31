@@ -11,6 +11,7 @@ import UseEffect from './ReactHooks/UseEffect';
 import UseEffect2 from './ReactHooks/UseEffect2';
 import UseReducer from './ReactHooks/UseReducer';
 import UseReducer2 from './ReactHooks/UseReducer2';
+import UseRef from './ReactHooks/UseRef';
 import LearnUseState from './ReactHooks/UseState';
 import UseStateAdvance from './ReactHooks/UseStateAdvance';
 import Renderinglist from './Renderinglist/Renderinglist';
@@ -84,7 +85,7 @@ import ClassState from './state/ClassState';
 //   );
 // }
 
-function App(){
+const App = () => {
   return(
     <div className="App">
       <h1>Use State React Hooks</h1>
@@ -93,7 +94,8 @@ function App(){
       {/* <UseReducer /> */}
       {/* <UseReducer2 /> */}
       {/* <UseEffect /> */}
-      <UseEffect2 />
+      {/* <UseEffect2 /> */}
+      <UseRef />
     </div>
 
   );
