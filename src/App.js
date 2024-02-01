@@ -9,6 +9,7 @@ import Handlingeror from './Handlingeror/Handlingeror';
 import LifeCycledidMount from './LifeCycledidMount/LifeCycledidMount';
 import UseEffect from './ReactHooks/UseEffect';
 import UseEffect2 from './ReactHooks/UseEffect2';
+import UseMemo from './ReactHooks/UseMemo';
 import UseReducer from './ReactHooks/UseReducer';
 import UseReducer2 from './ReactHooks/UseReducer2';
 import UseRef from './ReactHooks/UseRef';
@@ -97,7 +98,8 @@ const App = () => {
       {/* <UseEffect /> */}
       {/* <UseEffect2 /> */}
       {/* <UseRef /> */}
-      <UseRef2 />
+      {/* <UseRef2 /> */}
+      <UseMemo />
     </div>
 
   );
