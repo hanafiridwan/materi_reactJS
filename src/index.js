@@ -5,14 +5,20 @@ import App from './App';
 // import Home from './Components/Home';
 // import Example from './Components/Example';
 import reportWebVitals from './reportWebVitals';
+import UserContextProvider from './context/UseContext';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <App />
-    {/* <Home /> */}
-    {/* <Example /> */}
-  </React.StrictMode>
+  <>
+  <UserContextProvider>
+  <App />
+  </UserContextProvider> {/*cara bacanya : userContextprovider kita akan mengirimkan data ke app, dan app akan merender semua yang ada di dalam userprovider */}
+  </>
+  // <React.StrictMode>
+    
+  //   {/* <Home /> */}
+  //   {/* <Example /> */}
+  // </React.StrictMode>
 );
 
 // If you want to start measuring performance in your app, pass a function

@@ -1,4 +1,5 @@
 // import logo from './logo.svg';
+import { createContext, useContext, useState } from 'react';
 import './App.css';
 import CSSreact from './CSSreact/CSSreact';
 import Classconditionalrendering from './Conditionalrendering/Classconditionalrendering';
@@ -87,19 +88,33 @@ import ClassState from './state/ClassState';
 //   );
 // }
 
+// const App = () => {
+//   return(
+//     <div className="App">
+//       <h1>Use State React Hooks</h1>
+//       {/* <LearnUseState /> */}
+//       {/* <UseStateAdvance /> */}
+//       {/* <UseReducer /> */}
+//       {/* <UseReducer2 /> */}
+//       {/* <UseEffect /> */}
+//       {/* <UseEffect2 /> */}
+//       {/* <UseRef /> */}
+//       {/* <UseRef2 /> */}
+//       <UseMemo />
+//     </div>
+
+//   );
+// }
+
+// export default App;
+
 const App = () => {
+
   return(
     <div className="App">
-      <h1>Use State React Hooks</h1>
-      {/* <LearnUseState /> */}
-      {/* <UseStateAdvance /> */}
-      {/* <UseReducer /> */}
-      {/* <UseReducer2 /> */}
-      {/* <UseEffect /> */}
-      {/* <UseEffect2 /> */}
-      {/* <UseRef /> */}
-      {/* <UseRef2 /> */}
       <UseMemo />
+      <UseEffect />
+      <h1>Use State React Hooks</h1>
     </div>
 
   );

@@ -1,5 +1,7 @@
 import React, { useMemo, useState } from 'react'
+import { useUserContext } from '../context/UseContext'
 import { expensiveCalculation } from '../utils/function'
+// import { useUserContext } from '../App'
 
 const UseMemo = () => {
     const [count, setCount] = useState(0)
@@ -14,6 +16,10 @@ const UseMemo = () => {
     const AddTodos = () => {
         setTodos(prev => [...prev, 'New to do'])
     }
+
+    const user = useUserContext()
+
+    console.log(user) //ini adalah materi tentang useContext.
 
   return (
     <div>
